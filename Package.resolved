@@ -1,13 +1,13 @@
 {
-  "originHash" : "21426c7e67e0003e5a1e08c0f4323d81f8190a1dc8c3b2f9dc9f8fed20da343d",
+  "originHash" : "7a09ef8b5dbd74602e8b353a23acb0d1383064ed1a90f8c58aa4bbfec1c3095f",
   "pins" : [
     {
       "identity" : "swift-case-paths",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-case-paths",
+      "location" : "https://github.com/johankool/swift-case-paths",
       "state" : {
-        "revision" : "642e6aab8e03e5f992d9c83e38c5be98cfad5078",
-        "version" : "1.5.5"
+        "branch" : "android-support",
+        "revision" : "71fc736bd47a565605aeaa680e5730b31ea031ee"
       }
     },
     {
@@ -22,19 +22,19 @@
     {
       "identity" : "swift-concurrency-extras",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-concurrency-extras",
+      "location" : "https://github.com/johankool/swift-concurrency-extras",
       "state" : {
-        "revision" : "6054df64b55186f08b6d0fd87152081b8ad8d613",
-        "version" : "1.2.0"
+        "branch" : "android-tests",
+        "revision" : "49e9f1a79e8051f0f968bffc2279981031160063"
       }
     },
     {
       "identity" : "swift-custom-dump",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-custom-dump",
+      "location" : "https://github.com/johankool/swift-custom-dump",
       "state" : {
-        "revision" : "82645ec760917961cfa08c9c0c7104a57a0fa4b1",
-        "version" : "1.3.3"
+        "branch" : "android-support",
+        "revision" : "c058690b8051b3c476674a47934c5f536a1c659d"
       }
     },
     {
@@ -56,12 +56,21 @@
       }
     },
     {
+      "identity" : "swift-issue-reporting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johankool/swift-issue-reporting",
+      "state" : {
+        "branch" : "android-support",
+        "revision" : "7c486289b8d55ec0e746b15d7bc54088360d6654"
+      }
+    },
+    {
       "identity" : "swift-perception",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-perception",
+      "location" : "https://github.com/johankool/swift-perception",
       "state" : {
-        "revision" : "bc67aa8e461351c97282c2419153757a446ae1c9",
-        "version" : "1.3.5"
+        "branch" : "android-support",
+        "revision" : "28a45374fe8c07903fd413c416d5aba3c8cc6ff5"
       }
     },
     {
@@ -69,17 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftlang/swift-syntax",
       "state" : {
-        "revision" : "515f79b522918f83483068d99c68daeb5116342d",
-        "version" : "600.0.0-prerelease-2024-08-20"
-      }
-    },
-    {
-      "identity" : "xctest-dynamic-overlay",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
-      "state" : {
-        "revision" : "96beb108a57f24c8476ae1f309239270772b2940",
-        "version" : "1.2.5"
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
       }
     }
   ],

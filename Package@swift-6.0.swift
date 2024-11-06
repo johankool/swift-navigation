@@ -31,11 +31,11 @@ let package = Package(
   dependencies: [
     .package(url: "https://github.com/apple/swift-collections", from: "1.0.0"),
     .package(url: "https://github.com/swiftlang/swift-docc-plugin", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-case-paths", from: "1.5.4"),
-    .package(url: "https://github.com/pointfreeco/swift-concurrency-extras", from: "1.2.0"),
-    .package(url: "https://github.com/pointfreeco/swift-custom-dump", from: "1.3.2"),
-    .package(url: "https://github.com/pointfreeco/swift-perception", from: "1.3.4"),
-    .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "1.2.2"),
+    .package(url: "https://github.com/johankool/swift-case-paths", branch: "android-support"),
+    .package(url: "https://github.com/johankool/swift-concurrency-extras", branch: "android-tests"),
+    .package(url: "https://github.com/johankool/swift-custom-dump", branch: "android-support"),
+    .package(url: "https://github.com/johankool/swift-perception", branch: "android-support"),
+    .package(url: "https://github.com/johankool/swift-issue-reporting", branch: "android-support"),
   ],
   targets: [
     .target(
@@ -59,7 +59,7 @@ let package = Package(
       dependencies: [
         "UIKitNavigation",
         .product(name: "CasePaths", package: "swift-case-paths"),
-        .product(name: "IssueReporting", package: "xctest-dynamic-overlay"),
+        .product(name: "IssueReporting", package: "swift-issue-reporting"),
       ]
     ),
     .testTarget(

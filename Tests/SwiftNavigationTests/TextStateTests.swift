@@ -3,7 +3,7 @@ import SwiftNavigation
 import XCTest
 
 final class TextStateTests: XCTestCase {
-  #if !os(WASI)
+  #if !os(WASI) && !os(Android)
     func testTextState() {
       var dump = ""
       customDump(TextState("Hello, world!"), to: &dump)
